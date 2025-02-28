@@ -167,7 +167,7 @@ class _WorkoutDetailScreenState extends State<WorkoutDetailScreen> {
                         width: context.width - 40,
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(5),
-                          color: TColor.secondaryText.withOpacity(0.15),
+                          color: TColor.secondaryText,
                         ),
                         alignment: Alignment.centerLeft,
                         child: Container(

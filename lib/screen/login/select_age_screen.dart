@@ -15,7 +15,6 @@ class _SelectAgeScreenState extends State<SelectAgeScreen> {
 
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
 
     for (var i = 1; i < 120; i++) {
