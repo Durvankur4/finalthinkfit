@@ -47,18 +47,13 @@ class _ExercisesScreenState extends State<ExercisesScreen> {
       "subtitle": "16 Exercises",
       "image": "assets/img/ex_7.png"
     },
-    {
-      "title": "Chest",
-      "subtitle": "16 Exercises",
-      "image": "assets/img/ex_8.png"
-    },
   ];
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
         body: GridView.builder(
-          padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 20),
+      padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 20),
       gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
           crossAxisCount: 2,
           childAspectRatio: 1,
@@ -67,9 +62,12 @@ class _ExercisesScreenState extends State<ExercisesScreen> {
       itemBuilder: (context, index) {
         var obj = listArr[index] as Map? ?? {};
 
-        return ExercisesCell(obj: obj, onPressed: (){
+        return ExercisesCell(
+          obj: obj,
+          onPressed: () {
             context.push(const ExercisesNameScreen());
-        },);
+          },
+        );
       },
       itemCount: listArr.length,
     ));

@@ -50,7 +50,7 @@ class _TrainerProfileScreenState extends State<TrainerProfileScreen> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      "Ashish Chutake",
+                      "samarth ",
                       style: TextStyle(
                         color: TColor.primaryText,
                         fontSize: 18,

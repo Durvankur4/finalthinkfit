@@ -13,53 +13,25 @@ class TrainerTabScreen extends StatefulWidget {
 class _TrainerTabScreenState extends State<TrainerTabScreen> {
   List listArr = [
     {
-      "name": "Ashish Chutake",
-      "detail": "Fitness and Physiotheraphy",
-      "image": "assets/img/t1.png",
-      "rate": 4.0,
-      "location": "Mumbai"
-    },
-    {
-      "name": "Ann Mathewys ",
-      "detail": "Weight Loss",
-      "image": "assets/img/t2.png",
-      "rate": 4.0,
-      "location": "Nagpur"
-    },
-    {
-      "name": "Lalit Kalambe",
-      "detail": "Fitness and Physiotheraphy",
+      "name": "Amar Kalambe",
+      "detail": "Fitness",
       "image": "assets/img/t3.png",
-      "rate": 4.0,
+      "rate": 5.0,
       "location": "Mumbai"
     },
     {
-      "name": "Aditya Khobragade",
-      "detail": "power gaining",
-      "image": "assets/img/t4.png",
-      "rate": 4.0,
-      "location": "Bangalore"
-    },
-    {
-      "name": "Ashish Chutake",
-      "detail": "Fitness and Physiotheraphy",
+      "name": "Pawan Chutake",
+      "detail": "Yapping",
       "image": "assets/img/t5.png",
       "rate": 4.0,
       "location": "Chennai"
     },
     {
-      "name": "Darshan Barapatre",
+      "name": "Aniket Thorat",
       "detail": "Mass gain",
       "image": "assets/img/t6.png",
-      "rate": 4.0,
-      "location": "Delhi"
-    },
-    {
-      "name": "Saurabh Bhoyar",
-      "detail": "Fitness and Physiotheraphy",
-      "image": "assets/img/t7.png",
-      "rate": 4.0,
-      "location": "Mumbai"
+      "rate": 1.0,
+      "location": "Pune"
     },
   ];
   @override
@@ -71,9 +43,12 @@ class _TrainerTabScreenState extends State<TrainerTabScreen> {
           vertical: 20,
         ),
         itemBuilder: (context, index) {
-          return TrainerRow(obj: listArr[index], onPressed: (){
-            context.push(const TrainerProfileScreen());
-          },);
+          return TrainerRow(
+            obj: listArr[index],
+            onPressed: () {
+              context.push(const TrainerProfileScreen());
+            },
+          );
         },
         separatorBuilder: (context, index) => const SizedBox(
           height: 15,

@@ -13,22 +13,16 @@ class HealthTipScreen extends StatefulWidget {
 class _HealthTipScreenState extends State<HealthTipScreen> {
   List listArr = [
     {
-      "title": "A Diet Without Exercise is Useless. ",
+      "title": "Waight gain is not the Primary Goal ",
       "subtitle":
-          "Interval training is a form of exercise in which you. alternate between  or more exercise..",
+          "Focusing on the Weight gain and neglecting the exercise is not optimized for gains..",
       "image": "assets/img/home_1.png",
     },
     {
-      "title": "Garlic As fresh and Sweet as baby's Breath. ",
+      "title": "Garlic is injurous to health.. ",
       "subtitle":
           "Garlic is the plant in the onion family that's grown alternate between  or more exercise..",
       "image": "assets/img/home_2.png",
-    },
-    {
-      "title": "Garlic As fresh and Sweet as baby's Breath. ",
-      "subtitle":
-          "Garlic is the plant in the onion family that's grown alternate between  or more exercise..",
-      "image": "assets/img/home_3.png",
     },
   ];
 

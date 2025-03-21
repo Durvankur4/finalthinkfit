@@ -45,11 +45,11 @@ class _TopTabViewScreenState extends State<TopTabViewScreen>
     return Scaffold(
       appBar: AppBar(
         backgroundColor: TColor.secondary,
-        centerTitle: false,
+        centerTitle: true,
         leading: Container(),
         leadingWidth: 20,
         title: const Text(
-          "Healtho",
+          "ThinkFit",
           style: TextStyle(
             color: Colors.white,
             fontSize: 18,

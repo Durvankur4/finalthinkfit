@@ -73,7 +73,7 @@ class TrainerRow extends StatelessWidget {
                               const EdgeInsets.symmetric(horizontal: 1.0),
                           itemBuilder: (context, _) => const Icon(
                             Icons.star,
-                            color: Colors.amber,
+                            color: Color.fromARGB(255, 47, 46, 45),
                           ),
                           onRatingUpdate: (rating) {
                             print(rating);

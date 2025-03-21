@@ -37,7 +37,7 @@ class _SettingScreenState extends State<SettingScreen> {
               icon: "assets/img/user_placeholder.png",
               isIconCircle: true,
               onPressed: () {
-                context.push( const ProfileScreen());
+                context.push(const ProfileScreen());
               }),
           SettingRow(
               title: "Language options",
@@ -83,7 +83,6 @@ class _SettingScreenState extends State<SettingScreen> {
               icon: "assets/img/logout.png",
               value: "",
               onPressed: () {}),
-          
         ],
       ),
     );
