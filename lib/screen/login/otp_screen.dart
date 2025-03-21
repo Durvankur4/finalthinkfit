@@ -52,18 +52,21 @@ class _OTPScreenState extends State<OTPScreen> {
                   color: TColor.primaryText,
                 ),
                 onChanged: (pin) {
-                  print("Changed: " + pin);
+                  print("Changed: $pin");
                 },
                 onCompleted: (pin) {
-                  print("Completed: " + pin);
+                  print("Completed: $pin");
                 },
               ),
               const SizedBox(
                 height: 35,
               ),
-              RoundButton(title: "VERIFY", isPadding: false, onPressed: () {
-                context.push(const NameScreen() );
-              }),
+              RoundButton(
+                  title: "VERIFY",
+                  isPadding: false,
+                  onPressed: () {
+                    context.push(const NameScreen());
+                  }),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [

@@ -1,7 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:healtho_gym/common/color_extension.dart';
-import 'package:healtho_gym/common_widget/radio_button.dart';
 
 class SelectWeightScreen extends StatefulWidget {
   final Function(dynamic) didChange;
@@ -16,7 +15,6 @@ class _SelectWeightScreenState extends State<SelectWeightScreen> {
 
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
 
     for (var i = 35; i < 150; i++) {

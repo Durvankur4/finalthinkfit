@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:healtho_gym/common/color_extension.dart';
 import 'package:healtho_gym/common_widget/round_button.dart';
 import 'package:healtho_gym/common_widget/title_subtitle_button.dart';
-import 'package:healtho_gym/screen/home/setting/setting_row.dart';
 
 class TrainerProfileScreen extends StatefulWidget {
   final bool isTrainer;

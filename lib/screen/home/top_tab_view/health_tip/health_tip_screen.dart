@@ -36,7 +36,7 @@ class _HealthTipScreenState extends State<HealthTipScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: ListView.separated(
-          padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 20),
+          padding: const EdgeInsets.symmetric(horizontal: 25, vertical: 25),
           itemBuilder: (context, index) {
             var obj = listArr[index] as Map? ?? {};
             return HealthTipRow(

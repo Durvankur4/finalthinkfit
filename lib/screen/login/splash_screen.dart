@@ -13,17 +13,17 @@ class SplashScreen extends StatefulWidget {
 class _SplashScreenState extends State<SplashScreen> {
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
     SystemChrome.setEnabledSystemUIMode(SystemUiMode.leanBack);
     loadAppScreen();
   }
+
   void loadAppScreen() async {
-      await Future.delayed(const Duration(seconds: 3));
-      loadOnBoardingScreen();
+    await Future.delayed(const Duration(seconds: 3));
+    loadOnBoardingScreen();
   }
 
-  void loadOnBoardingScreen(){
+  void loadOnBoardingScreen() {
     context.push(const OnBoardingScreen());
   }
 

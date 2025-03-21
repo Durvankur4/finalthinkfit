@@ -31,7 +31,6 @@ class _TopTabViewScreenState extends State<TopTabViewScreen>
 
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
     controller = TabController(length: 6, vsync: this);
     controller?.addListener(() {
@@ -60,7 +59,6 @@ class _TopTabViewScreenState extends State<TopTabViewScreen>
       ),
       body: Column(
         children: [
-          //TODO: Top Tab Bar
           Container(
             margin: const EdgeInsets.only(top: 0.5),
             color: TColor.secondary,
@@ -87,9 +85,6 @@ class _TopTabViewScreenState extends State<TopTabViewScreen>
               ),
             ),
           ),
-
-          //TODO: Tab View
-
           Expanded(
             child: TabBarView(
               controller: controller,

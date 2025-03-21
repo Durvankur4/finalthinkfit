@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Healtho Gym',
+      title: 'ThinkFit',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         fontFamily: "Poppins",
